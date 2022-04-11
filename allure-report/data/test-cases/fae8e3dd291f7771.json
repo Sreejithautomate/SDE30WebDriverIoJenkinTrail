@@ -1,0 +1,147 @@
+{
+  "uid" : "fae8e3dd291f7771",
+  "name" : "CreateContact",
+  "fullName" : "Contact.CreateContact",
+  "historyId" : "797aa6ddaa48e287101130f32edcf4db",
+  "time" : {
+    "start" : 1649411696184,
+    "stop" : 1649411768252,
+    "duration" : 72068
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found\n                    at implicitWait (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (D:\\SDET30JsAutomation\\test\\specs\\CreateContact.js:16:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found\n                    at implicitWait (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (D:\\SDET30JsAutomation\\test\\specs\\CreateContact.js:16:15)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b2ea77de8d0c3611",
+      "name" : "Screenshot",
+      "source" : "b2ea77de8d0c3611.png",
+      "type" : "image/png",
+      "size" : 134442
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Contact"
+  }, {
+    "name" : "testClass",
+    "value" : "Contact"
+  }, {
+    "name" : "testMethod",
+    "value" : "CreateContact"
+  }, {
+    "name" : "package",
+    "value" : "Contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31c39b2dba6ac3ae",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found",
+      "time" : {
+        "start" : 1649411178659,
+        "stop" : 1649411246624,
+        "duration" : 67965
+      }
+    }, {
+      "uid" : "ae127beac898b4c4",
+      "status" : "broken",
+      "statusDetails" : "assert.fail()",
+      "time" : {
+        "start" : 1649410566968,
+        "stop" : 1649410600011,
+        "duration" : 33043
+      }
+    }, {
+      "uid" : "aea88d8c2493ada",
+      "status" : "broken",
+      "statusDetails" : "assert.fail()",
+      "time" : {
+        "start" : 1649410116203,
+        "stop" : 1649410144270,
+        "duration" : 28067
+      }
+    }, {
+      "uid" : "68a04a8e9f4ed2e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649409450774,
+        "stop" : 1649409502501,
+        "duration" : 51727
+      }
+    }, {
+      "uid" : "eef3a561e9b38cdd",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=100.0.4896.75)",
+      "time" : {
+        "start" : 1649409218500,
+        "stop" : 1649409262299,
+        "duration" : 43799
+      }
+    }, {
+      "uid" : "66b85044acd05122",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//span[@class='dvHeaderText']\" because element wasn't found",
+      "time" : {
+        "start" : 1649408553423,
+        "stop" : 1649408671231,
+        "duration" : 117808
+      }
+    }, {
+      "uid" : "b7e7e6bb3e1b2e61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649398404245,
+        "stop" : 1649398540570,
+        "duration" : 136325
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fae8e3dd291f7771.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

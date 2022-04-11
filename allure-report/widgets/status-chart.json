@@ -1,0 +1,21 @@
+[ {
+  "uid" : "fae8e3dd291f7771",
+  "name" : "CreateContact",
+  "time" : {
+    "start" : 1649411696184,
+    "stop" : 1649411768252,
+    "duration" : 72068
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f7d39b70b8b44031",
+  "name" : "CreateContact",
+  "time" : {
+    "start" : 1649413380761,
+    "stop" : 1649413531935,
+    "duration" : 151174
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

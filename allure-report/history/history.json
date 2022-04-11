@@ -1,0 +1,42 @@
+{
+  "ac245ce7fe4d2b83c106ce920f4b6c4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7d39b70b8b44031",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found",
+      "time" : {
+        "start" : 1649413380761,
+        "stop" : 1649413531935,
+        "duration" : 151174
+      }
+    } ]
+  },
+  "797aa6ddaa48e287101130f32edcf4db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fae8e3dd291f7771",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found",
+      "time" : {
+        "start" : 1649411696184,
+        "stop" : 1649411768252,
+        "duration" : 72068
+      }
+    } ]
+  }
+}

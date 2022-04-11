@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649413380760' stop='1649413531988'>
+    <name>Contact</name>
+    <title>Contact</title>
+    <test-cases>
+        <test-case start='1649413380761' status='broken' stop='1649413531935'>
+            <name>CreateContact</name>
+            <title>CreateContact</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+                <parameter kind='argument' name='browserVersion' value='100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='95f6daa1-b164-4675-baad-572187287b31-attachment.png' type='image/png' size='184776'/>
+                <attachment title='Screenshot' source='b7c3aedc-690e-43e1-8a5c-7260832748ee-attachment.png' type='image/png' size='186520'/>
+                <attachment title='Screenshot' source='41a1877a-7be5-4fe9-b421-dd2046eaea18-attachment.png' type='image/png' size='186478'/>
+                <attachment title='Screenshot' source='a154a4b4-f5cc-4cbc-b7e9-d7838f3e0753-attachment.png' type='image/png' size='186450'/>
+                <attachment title='Screenshot' source='0dba7d28-6d7c-425b-a90d-688a38023ab8-attachment.png' type='image/png' size='114265'/>
+                <attachment title='Screenshot' source='6633696e-83ab-4fc1-b614-7e44f176089c-attachment.png' type='image/png' size='139965'/>
+                <attachment title='Screenshot' source='7cc2280b-ad8f-4467-a727-723a58f473ae-attachment.png' type='image/png' size='116867'/>
+                <attachment title='Screenshot' source='6290098e-a3a7-4de3-9d1f-4903e0139a0b-attachment.png' type='image/png' size='116867'/>
+                <attachment title='Screenshot' source='aeeebb2f-23e0-453b-9a5a-cc3223b5b6c6-attachment.png' type='image/png' size='117343'/>
+                <attachment title='Screenshot' source='6c3aab43-e698-4a1d-89f6-368740d97cfb-attachment.png' type='image/png' size='133988'/>
+                <attachment title='Execution video' source='355c1a23-6cdc-493d-9b44-124576defa4f-attachment.mp4' type='video/mp4' size='92'/>
+            </attachments>
+            <failure>
+                <message>Can't call getText on element with selector "//span[@class='dvHeaderTe']" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "//span[@class='dvHeaderTe']" because element wasn't found
+                    at implicitWait (D:\SDET30JsAutomation\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (D:\SDET30JsAutomation\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (D:\SDET30JsAutomation\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (D:\SDET30JsAutomation\test\specs\CreateContact.js:16:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,149 @@
+{
+  "uid" : "f7d39b70b8b44031",
+  "name" : "CreateContact",
+  "fullName" : "Contact.CreateContact",
+  "historyId" : "ac245ce7fe4d2b83c106ce920f4b6c4f",
+  "time" : {
+    "start" : 1649413380761,
+    "stop" : 1649413531935,
+    "duration" : 151174
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found\n                    at implicitWait (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (D:\\SDET30JsAutomation\\test\\specs\\CreateContact.js:16:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getText on element with selector \"//span[@class='dvHeaderTe']\" because element wasn't found\n                    at implicitWait (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (D:\\SDET30JsAutomation\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (D:\\SDET30JsAutomation\\test\\specs\\CreateContact.js:16:15)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5dc595a442b6da1",
+      "name" : "Screenshot",
+      "source" : "d5dc595a442b6da1.png",
+      "type" : "image/png",
+      "size" : 184776
+    }, {
+      "uid" : "4b306a38ef42bafc",
+      "name" : "Screenshot",
+      "source" : "4b306a38ef42bafc.png",
+      "type" : "image/png",
+      "size" : 186520
+    }, {
+      "uid" : "ea27cc5e28ebd906",
+      "name" : "Screenshot",
+      "source" : "ea27cc5e28ebd906.png",
+      "type" : "image/png",
+      "size" : 186478
+    }, {
+      "uid" : "2f4b994b55818a3f",
+      "name" : "Screenshot",
+      "source" : "2f4b994b55818a3f.png",
+      "type" : "image/png",
+      "size" : 186450
+    }, {
+      "uid" : "a4774e6eeb83a40a",
+      "name" : "Screenshot",
+      "source" : "a4774e6eeb83a40a.png",
+      "type" : "image/png",
+      "size" : 114265
+    }, {
+      "uid" : "88fb3c9e3eb558fe",
+      "name" : "Screenshot",
+      "source" : "88fb3c9e3eb558fe.png",
+      "type" : "image/png",
+      "size" : 139965
+    }, {
+      "uid" : "e2e2b1a035eabb5c",
+      "name" : "Screenshot",
+      "source" : "e2e2b1a035eabb5c.png",
+      "type" : "image/png",
+      "size" : 116867
+    }, {
+      "uid" : "a4ae67ef1d79d505",
+      "name" : "Screenshot",
+      "source" : "a4ae67ef1d79d505.png",
+      "type" : "image/png",
+      "size" : 116867
+    }, {
+      "uid" : "7b7d4161527bfafe",
+      "name" : "Screenshot",
+      "source" : "7b7d4161527bfafe.png",
+      "type" : "image/png",
+      "size" : 117343
+    }, {
+      "uid" : "48d03d819e096a7e",
+      "name" : "Screenshot",
+      "source" : "48d03d819e096a7e.png",
+      "type" : "image/png",
+      "size" : 133988
+    }, {
+      "uid" : "7ff4b31ea13d0d87",
+      "name" : "Execution video",
+      "source" : "7ff4b31ea13d0d87.mp4",
+      "type" : "video/mp4",
+      "size" : 71351
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Contact"
+  }, {
+    "name" : "testClass",
+    "value" : "Contact"
+  }, {
+    "name" : "testMethod",
+    "value" : "CreateContact"
+  }, {
+    "name" : "package",
+    "value" : "Contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  }, {
+    "name" : "browserVersion",
+    "value" : "100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f7d39b70b8b44031.json",
+  "parameterValues" : [ "chrome-100.0.4896.75", "100.0.4896.75" ]
+}

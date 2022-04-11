@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649410566967' stop='1649410600012'>
+    <name>Contact</name>
+    <title>Contact</title>
+    <test-cases>
+        <test-case start='1649410566968' status='broken' stop='1649410600011'>
+            <name>CreateContact</name>
+            <title>CreateContact</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>assert.fail()</message>
+                <stack-trace>AssertionError: assert.fail()
+                    at Context.&lt;anonymous> (D:\SDET30JsAutomation\test\specs\CreateContact.js:11:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
