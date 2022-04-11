@@ -28,11 +28,11 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        //'./test/specs/**/*.js',
-         './test/specs/CreateContact.js',
-        //'./test/specs/CreateContactWithExistContact.js',
-        // './test/specs/CreateOrganization.js',
-        //'./test/specs/CreateContactWithOrgan.js'
+        './test/specs/**/*.js',
+        //  './test/specs/CreateContact.js',
+        // //'./test/specs/CreateContactWithExistContact.js',
+        // // './test/specs/CreateOrganization.js',
+        // //'./test/specs/CreateContactWithOrgan.js'
 
     ],
     // Patterns to exclude.
